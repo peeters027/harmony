@@ -1,0 +1,53 @@
+body {
+    height: 200vh;
+    background: #4a6546;
+    background: white;
+    padding-top: 3rem;
+
+  }
+
+.navbar {
+  background-color: #b0976d;
+  background: #4a6546;
+  background: white;
+
+}
+
+.carousel-item {
+  height: 40rem;
+  background: black;
+  color:white;
+  position: relative;
+}
+
+.carousel-item .container {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding-bottom: 50px;
+}
+
+.overlay-image {
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-position: center;
+  background-size: cover;
+  opacity: 0.5
+}
+
+.about {
+  min-height: 40rem;
+}
+
+.about-me {
+}
+
+.about-picture {
+  background-image: url(img/pic4.jpg);
+  background-position: center;
+  background-size: cover;
+}
